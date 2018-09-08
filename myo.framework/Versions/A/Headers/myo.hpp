@@ -2,7 +2,7 @@
 // Distributed under the Myo SDK license agreement. See LICENSE.txt for details.
 #pragma once
 
-/// The namespace in which all of the %Myo C++ bindings are contained.
+/// The namespace in which all of the %Myo C++ bindings are contained. Test
 namespace myo {}
 
 #include "cxx/DeviceListener.hpp"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E0BCE9214401E8007FBF4A /* ArthritisDataController.c in Sources */ = {isa = PBXBuildFile; fileRef = 07E0BCE8214401E8007FBF4A /* ArthritisDataController.c */; };
 		8309EDE32143654300606D83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8309EDE22143654300606D83 /* main.cpp */; };
 		8309EDEA2143657500606D83 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309EDE92143657500606D83 /* myo.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E0BCE7214401E8007FBF4A /* ArthritisDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArthritisDataController.h; sourceTree = "<group>"; };
+		07E0BCE8214401E8007FBF4A /* ArthritisDataController.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArthritisDataController.c; sourceTree = "<group>"; };
 		8309EDDF2143654300606D83 /* arthritis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arthritis; sourceTree = BUILT_PRODUCTS_DIR; };
 		8309EDE22143654300606D83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8309EDE92143657500606D83 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myo.framework; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				8309EDE22143654300606D83 /* main.cpp */,
+				07E0BCE7214401E8007FBF4A /* ArthritisDataController.h */,
+				07E0BCE8214401E8007FBF4A /* ArthritisDataController.c */,
 			);
 			path = arthritis;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E0BCE9214401E8007FBF4A /* ArthritisDataController.c in Sources */,
 				8309EDE32143654300606D83 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
